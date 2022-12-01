@@ -15,6 +15,8 @@
 		04B5B9D62937D1A8008C09EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B5B9D42937D1A8008C09EF /* LaunchScreen.storyboard */; };
 		04B5B9E12937DB2D008C09EF /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5B9DF2937DB2D008C09EF /* secondViewController.swift */; };
 		04B5B9E22937DB2D008C09EF /* secondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B5B9E02937DB2D008C09EF /* secondViewController.xib */; };
+		04B5B9E729382929008C09EF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5B9E529382929008C09EF /* MainViewController.swift */; };
+		04B5B9E829382929008C09EF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B5B9E629382929008C09EF /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		04B5B9D72937D1A8008C09EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B5B9DF2937DB2D008C09EF /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		04B5B9E02937DB2D008C09EF /* secondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = secondViewController.xib; sourceTree = "<group>"; };
+		04B5B9E529382929008C09EF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		04B5B9E629382929008C09EF /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				04B5B9C92937D1A5008C09EF /* AppDelegate.swift */,
+				04B5B9E529382929008C09EF /* MainViewController.swift */,
+				04B5B9E629382929008C09EF /* MainViewController.xib */,
 				04B5B9CB2937D1A5008C09EF /* SceneDelegate.swift */,
 				04B5B9CD2937D1A5008C09EF /* ViewController.swift */,
 				04B5B9CF2937D1A5008C09EF /* Main.storyboard */,
@@ -141,6 +147,7 @@
 			files = (
 				04B5B9E22937DB2D008C09EF /* secondViewController.xib in Resources */,
 				04B5B9D62937D1A8008C09EF /* LaunchScreen.storyboard in Resources */,
+				04B5B9E829382929008C09EF /* MainViewController.xib in Resources */,
 				04B5B9D32937D1A8008C09EF /* Assets.xcassets in Resources */,
 				04B5B9D12937D1A5008C09EF /* Main.storyboard in Resources */,
 			);
@@ -157,6 +164,7 @@
 				04B5B9CE2937D1A5008C09EF /* ViewController.swift in Sources */,
 				04B5B9CA2937D1A5008C09EF /* AppDelegate.swift in Sources */,
 				04B5B9CC2937D1A5008C09EF /* SceneDelegate.swift in Sources */,
+				04B5B9E729382929008C09EF /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
